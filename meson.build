@@ -4,6 +4,7 @@ dirs=[
   'labAdwaita',
   'labdows31',
   'labGreybird-geeko',
+  'labTeallach',
 ]
 
 foreach d : dirs
