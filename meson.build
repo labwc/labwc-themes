@@ -1,6 +1,7 @@
 project('labwc-themes', 'c')
 
 dirs=[
+  'labAdwaita',
   'labdows31',
   'labGreybird-geeko',
 ]
