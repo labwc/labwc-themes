@@ -1,7 +1,12 @@
 # general
 border.width: 1
 padding.height: 4
-titlebar.height: 34
+
+window.button.height: 26
+window.button.width: 26
+window.titlebar.padding.height: 4
+window.titlebar.padding.width: 4
+window.button.spacing: 4
 
 menu.items.padding.y:8
 menu.items.padding.x: 12
@@ -13,7 +18,7 @@ window.label.text.justify: center
 
 # Active Windows
 window.active.title.bg.color: #ffffff
-window.active.border.color: #dbdbdb 80
+window.active.border.color: #dbdbdbcc
 window.active.label.text.color: #222222
 window.active.indicator.toggled-keybind.color: #ff0000
 
@@ -25,7 +30,7 @@ window.active.button.unpressed.image.color: #333333
 
 # Inactive Windows
 window.inactive.title.bg.color: #ffffff
-window.inactive.border.color: #e0e0e1 80
+window.inactive.border.color: #e0e0e1cc
 window.inactive.label.text.color: #a7a7a7
 window.inactive.button.unpressed.image.color: #a7a7a7
 window.inactive.button.menu.unpressed.image.color: #a7a7a7 
