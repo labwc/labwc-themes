@@ -6,6 +6,7 @@ dirs=[
   'labAdwaita-dark',
   'labAdwaita-dark-xbm',
   'labAdwaita-Papirus-dark',
+  'labCombine-xbm',
   'labdows31',
   'labGreybird-geeko',
   'labTeallach',
