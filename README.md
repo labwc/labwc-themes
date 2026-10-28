@@ -7,6 +7,10 @@ meson install -C build
 
 # Themes
 
+## labCombine-xbm
+
+Inspired by Numix
+
 ## labAdwaita-Papirus-dark
 
 This theme tries to mimic the appearance of the
