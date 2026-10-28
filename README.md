@@ -1,39 +1,63 @@
-# Overview
+# labwc Themes
 
-This repository contains Server Side Decoration (SSD) themes for `labwc`.
+A collection of Server-Side Decoration (SSD) themes for [labwc], designed to
+complement popular desktop themes and icon sets.
 
-Why?
+[labwc]: https://github.com/labwc/labwc
 
-Because:
+## Why these themes?
 
-1. It is hard to achieve compositor and cross-toolkit visual uniformity, and
-   increasingly so as (a) there is a shift in how Gtk4 views theming and what
-   it considers supported; (b) Qt handles themes differently between QWidgets
-   and QtQuick; (c) there are other toolkits in use, for example `iced-rs`,
-   `tk` and whatever is used by electron based applications.
-2. It is better to avoid chasing Qt/Gtk internal visuals; and not treating
-   toolkits as theme providers. In other words, trying to parse Gtk CSS and
-   Kvantum files on the fly is a bad idea.
-3. It is good to build compositor themerc files and icons to be consistent
-   with (not identical to) popular Gtk/Qt/other themes. The term 'consistency'
-   here is meant to refer to matched behaviour rather than pixel perfection.
+Achieving a visually coherent desktop across the compositor and different
+toolkits is increasingly difficult. GTK, Qt and other application frameworks
+each have their own theming mechanisms, conventions and limitations.
 
-# Install
+For example:
 
-If you want to install these themes locally (for example if they are not
-packaged on your favourite distro), just run the commands below and the themes
-will be installed to `~/.local/share/themes/`.
+- **GTK:** GTK 4 and libadwaita have different theming expectations from
+  traditional GTK applications, with some aspects of the interface no longer
+  intended to be customised.
+- **Qt:** Qt Widgets and Qt Quick do not necessarily share the same appearance
+  or theming mechanisms.
+- **Other toolkits:** Applications built with frameworks such as Electron, Tk
+  and iced may have their own approaches to styling.
 
-```
-meson setup build --prefix=$HOME/.local
+Rather than attempting to reproduce every toolkit's internal appearance, these
+themes take a different approach.
+
+### Design principles
+
+1. Prefer consistency over uniformity. A desktop should feel coherent without
+   requiring every component to look identical. Matching visual cues, colours,
+   shapes and behaviour is often more valuable than pixel-perfect imitation.
+2. Keep the compositor independent of toolkit internals. Parsing GTK CSS,
+   Kvantum configuration files or other toolkit-specific theme definitions at
+   runtime would introduce unnecessary complexity and dependencies on
+   implementation details that can change.
+3. Complement existing themes. The aim is to provide labwc window decorations,
+   menus and icons that work well alongside popular GTK, Qt and other
+   application themes, without requiring the compositor to become a theme
+   engine for those toolkits.
+
+The result is a collection of themes that help bring the window manager into
+the visual language of the wider desktop, while keeping the implementation
+simple and maintainable.
+
+## Installation
+
+To install the themes locally, for example when your distribution does not
+package them, run:
+
+```sh
+meson setup build --prefix="$HOME/.local"
 meson install -C build
 ```
 
-For system-wide packaging just set `--prefix` to `/usr` or whatever.
+For system-wide installation or distribution packaging, use an appropriate
+prefix, such as `/usr`.
 
 # Themes
 
-## Screenshots of common themes
+The following screenshots show the available themes.
 
 ### labAdwaita
 
