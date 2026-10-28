@@ -1,0 +1,4 @@
+No dropshadows
+swaybg -c '#808080'
+Window at 24,24 480 x whatever
+Capture with `sleep 4 ; grim -g "0,0 528x320" foo.png`

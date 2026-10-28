@@ -7,11 +7,55 @@ meson install -C build
 
 # Themes
 
-## labCombine-xbm
+## Screenshots of common themes
+
+### labAdwaita-Papirus-dark
+
+<img src="images/labAdwaita-Papirus-dark.png" />
+
+### labAdwaita-dark
+
+<img src="images/labAdwaita-dark.png" />
+
+### labAdwaita
+
+<img src="images/labAdwaita.png" />
+
+### labArc-xbm
+
+<img src="images/labArc-xbm.png" />
+
+### labCombine-xbm
+
+<img src="images/labCombine-xbm.png" />
+
+### labGreybird-geeko
+
+<img src="images/labGreybird-geeko.png" />
+
+### labNumix-xbm
+
+<img src="images/labNumix-xbm.png" />
+
+### labPiXflat-xbm
+
+<img src="images/labPiXflat-xbm.png" />
+
+### labTeallach
+
+<img src="images/labTeallach.png" />
+
+### labdows31
+
+<img src="images/labdows31.png" />
+
+## Additional Notes
+
+### labCombine-xbm
 
 Inspired by Numix
 
-## labAdwaita-Papirus-dark
+### labAdwaita-Papirus-dark
 
 This theme tries to mimic the appearance of the
 [Adwaita 1.5 Dark GTK](https://gnome.pages.gitlab.gnome.org/libadwaita/) theme
@@ -21,17 +65,17 @@ together with the Pairus Dark icon theme.
 Recommended `rc.xml` theme settings:
 
 ```xml
-  <theme>
-    <name>Adwaita-Papirus-Dark</name>
-    <titlebar layout=":menu,iconify,max,close" showTitle="yes" />
-    <cornerRadius>14</cornerRadius>
-    <dropShadows>yes</dropShadows>
-    <font place="ActiveWindow" name="Cantarell" size="12" weight="bold" />
-    <font place="InactiveWindow" name="Cantarell" size="12" weight="bold" />
-    <font place="MenuHeader" name="Cantarell" size="12" weight="bold" />
-    <font place="MenuItem" name="Cantarell" size="12" />
-    <font place="OnScreenDisplay" name="Cantarell" size="12" />
-  </theme>
+<theme>
+  <name>Adwaita-Papirus-Dark</name>
+  <titlebar layout=":menu,iconify,max,close" showTitle="yes" />
+  <cornerRadius>14</cornerRadius>
+  <dropShadows>yes</dropShadows>
+  <font place="ActiveWindow" name="Cantarell" size="12" weight="bold" />
+  <font place="InactiveWindow" name="Cantarell" size="12" weight="bold" />
+  <font place="MenuHeader" name="Cantarell" size="12" weight="bold" />
+  <font place="MenuItem" name="Cantarell" size="12" />
+  <font place="OnScreenDisplay" name="Cantarell" size="12" />
+</theme>
 ```
 
 Recommended Gnome Tweaks settings:
@@ -50,3 +94,4 @@ in this repository and on the icons of the great [Papirus icon theme](https://gi
 Obligatory screenshot:
 
 ![Screenshot](images/Screenshot.png)
+
