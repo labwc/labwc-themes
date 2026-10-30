@@ -1,4 +1,8 @@
-project('labwc-themes', 'c')
+project(
+  'labwc-themes',
+  'c',
+  version: '0.1.0',
+)
 
 dirs=[
   'labAdwaita',
