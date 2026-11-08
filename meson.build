@@ -14,6 +14,7 @@ dirs=[
   'labCombine-xbm',
   'labdows31',
   'labGreybird-geeko',
+  'labGutterSnipe',
   'labNumix-xbm',
   'labPiXflat-xbm',
   'labTeallach',
